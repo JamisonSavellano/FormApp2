@@ -4,16 +4,27 @@
     <title>Favorite Color</title>
   </head>
   <body>
+	<h1>Enter your data to get your random password!</h1>
 
     <form action='/response'>
-      <label for="color">What is your favorite color?</label>
+      <label for="color">What is the name of your favorite pet? If you have no pets, what is the name of your favorite being?</label>
       <br>
-      <input type="text" name="color" id="color">
+      <input type="text" name="name" id="name">
       <br><br>
-      
-      <label for="num">What number do you want to multiply by 2?</label>
+	  
+	  <label for="text">What is the something you think is cool?</label>
       <br>
-      <input type="number" name="multNum" id="num" required>
+      <input type="string" name="cool" id="cool" required>
+      <br><br>
+	  
+	  <label for="text">What is your favorite animal?</label>
+      <br>
+      <input type="text" name="animal" id="animal" required>
+      <br><br>
+	  
+	  <label for="num">What is your birth year</label>
+      <br>
+      <input type="number" name="birth" id="birth" required>
       <br><br>
       <input type="submit">
     </form>
